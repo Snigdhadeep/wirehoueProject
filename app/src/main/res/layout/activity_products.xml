@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".ProductsActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="PALLET NAME"
+           android:textStyle="bold"/>
+       <View
+
+           android:id="@+id/view1"
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:background="#000"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/string_text_view"/>
+       <View
+
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:background="#000"
+           />
+   </LinearLayout>
+
+    <View
+        android:id="@+id/myview"
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#000"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="CLIENT TYPE"
+            android:textStyle="bold"/>
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/string_text_view2"/>
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            />
+
+    </LinearLayout>
+    <View
+
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#000"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="CURRENT TIME INTERVAL"
+            android:textStyle="bold"/>
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/string_text_view3"/>
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            />
+
+    </LinearLayout>
+    <View
+
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#000"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="DATE TIME"
+            android:textStyle="bold"/>
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/string_text_view4"/>
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            />
+
+    </LinearLayout>
+
+
+    <View
+
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#000"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="DELIVERY DATE"
+            android:textStyle="bold"/>
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/string_text_view5"/>
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            />
+
+    </LinearLayout>
+</LinearLayout>
+
+</HorizontalScrollView>

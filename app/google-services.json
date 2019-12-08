@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "974333901837",
+    "firebase_url": "https://wirehouseproj.firebaseio.com",
+    "project_id": "wirehouseproj",
+    "storage_bucket": "wirehouseproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974333901837:android:c5e7d7af1c8b48a3",
+        "android_client_info": {
+          "package_name": "com.example.wirehouse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974333901837-ah0g1kks34m0a3c3r6nakh43754110qb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wirehouse",
+            "certificate_hash": "23c78361f33dfbfaf819460b6efe2ef072da826b"
+          }
+        },
+        {
+          "client_id": "974333901837-4a8hhh50brq2hen62t99aqd6f6qk8cb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHiJpQnz7zUBXjPPCR2DMZGM5SegVoYpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974333901837-4a8hhh50brq2hen62t99aqd6f6qk8cb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
